@@ -20,6 +20,7 @@ module.exports = (grunt) ->
             port: options.port
             hostname: options.hostname
             keepalive: true
+            graphMaxY: options.graphMaxY
             middleware: (connect, options) ->
               data = ''
               {exec} = require 'child_process'

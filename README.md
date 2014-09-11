@@ -32,6 +32,18 @@ grunt.initConfig({
 });
 ```
 
+Run code_fluctuation task.
+
+```bash
+$ grunt code_cluctuation
+```
+
+The server start. You can access `http://localhost:48897` to view the graph.
+
+```bash
+$ open http://localhost:48879
+```
+
 ### Options
 
 #### options.processMaxBuffer

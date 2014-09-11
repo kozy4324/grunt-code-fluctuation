@@ -1,7 +1,7 @@
 {
   "name": "grunt-code-fluctuation",
   "description": "Show the code fluctuation graph of git repository in brwoser.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "https://github.com/kozy4324/grunt-code-fluctuation",
   "author": {
     "name": "Koji NAKAMURA",

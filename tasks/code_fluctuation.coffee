@@ -26,7 +26,7 @@ module.exports = (grunt) ->
               command = 'git log --no-merges --stat | grep "files changed"'
               exec command, {maxBuffer: options.processMaxBuffer}, (e, o) ->
                 grunt.fatal e if e?
-                data = o.toString('utf8')
+                data = o.toString('utf8').replace(/\n$/, '')
               return [
                 (req, res, next) ->
                   res.setHeader 'Content-Type', 'text/html'

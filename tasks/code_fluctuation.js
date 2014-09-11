@@ -37,7 +37,7 @@
                   if (e != null) {
                     grunt.fatal(e);
                   }
-                  return data = o.toString('utf8');
+                  return data = o.toString('utf8').replace(/\n$/, '');
                 });
                 return [
                   function(req, res, next) {

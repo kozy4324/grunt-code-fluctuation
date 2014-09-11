@@ -30,7 +30,7 @@
                 var command, data, exec;
                 data = '';
                 exec = require('child_process').exec;
-                command = 'git log --no-merges --stat | grep "files changed"';
+                command = 'git log --no-merges --stat | egrep "files? changed"';
                 exec(command, {
                   maxBuffer: options.processMaxBuffer
                 }, function(e, o) {

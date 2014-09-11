@@ -23,7 +23,7 @@ module.exports = (grunt) ->
             middleware: (connect, options) ->
               data = ''
               {exec} = require 'child_process'
-              command = 'git log --no-merges --stat | grep "files changed"'
+              command = 'git log --no-merges --stat | egrep "files? changed"'
               exec command, {maxBuffer: options.processMaxBuffer}, (e, o) ->
                 grunt.fatal e if e?
                 data = o.toString('utf8').replace(/\n$/, '')

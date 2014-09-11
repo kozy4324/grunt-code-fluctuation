@@ -61,3 +61,7 @@ Type: `Number`
 Default value: `undefined`
 
 The value that is passed to the script rendering a graph on html.
+
+## Using library
+
+- [ccchart](http://ccchart.com/)

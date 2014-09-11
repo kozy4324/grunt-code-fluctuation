@@ -44,6 +44,8 @@ The server start. You can access `http://localhost:48897` to view the graph.
 $ open http://localhost:48879
 ```
 
+You can stop the server to pressing Ctrl+C.
+
 ### Options
 
 #### options.processMaxBuffer

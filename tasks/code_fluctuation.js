@@ -53,6 +53,7 @@
           }
         }
       });
+      grunt.file.setBase("" + __dirname + "/../");
       grunt.loadNpmTasks('grunt-contrib-connect');
       return grunt.task.run('connect:code_fluctuation');
     });

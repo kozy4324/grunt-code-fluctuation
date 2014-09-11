@@ -33,6 +33,7 @@ module.exports = (grunt) ->
                   res.end tmpl data: data, graphMaxY: options.graphMaxY
               ]
 
+    grunt.file.setBase "#{__dirname}/../"
     grunt.loadNpmTasks 'grunt-contrib-connect'
     grunt.task.run 'connect:code_fluctuation'
 

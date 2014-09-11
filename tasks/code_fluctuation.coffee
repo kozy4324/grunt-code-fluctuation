@@ -20,6 +20,7 @@ module.exports = (grunt) ->
             port: options.port
             hostname: options.hostname
             keepalive: true
+            processMaxBuffer: options.processMaxBuffer
             graphMaxY: options.graphMaxY
             middleware: (connect, options) ->
               data = ''

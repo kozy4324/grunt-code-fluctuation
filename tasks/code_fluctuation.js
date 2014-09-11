@@ -26,6 +26,7 @@
               port: options.port,
               hostname: options.hostname,
               keepalive: true,
+              processMaxBuffer: options.processMaxBuffer,
               graphMaxY: options.graphMaxY,
               middleware: function(connect, options) {
                 var command, data, exec;

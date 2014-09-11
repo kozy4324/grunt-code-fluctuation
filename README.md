@@ -2,6 +2,8 @@
 
 > Show the code fluctuation graph of git repository in brwoser. This plugin is just a toy program.
 
+![screenshot.png](https://raw.githubusercontent.com/kozy4324/grunt-code-fluctuation/master/screenshot.png)
+
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
 
